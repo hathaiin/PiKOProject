@@ -9,14 +9,14 @@
     tools:context=".MainActivity">
 
     <TextView
-    android:id="@+id/tvname"
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="1"
-    android:gravity="center"
-    android:textColor="#FF7F5B"
-    android:textSize="30sp"
-    android:textStyle="bold"/>
+        android:id="@+id/tvname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#FF7F5B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -70,13 +70,13 @@
                 android:textStyle="bold" />
 
             <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="0dp"-->
-                <!--android:layout_weight="1"-->
-                <!--android:gravity="center"-->
-                <!--android:text="Facebook"-->
-                <!--android:textSize="15sp"-->
-                <!--android:textStyle="bold" />-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Facebook"-->
+            <!--android:textSize="15sp"-->
+            <!--android:textStyle="bold" />-->
 
         </LinearLayout>
 
@@ -93,9 +93,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:gravity="center"/>
-                <!--android:text="0865759098"-->
-                android:textSize="15sp" />
+                android:gravity="center" />
+            <!--android:text="0865759098"-->
+            android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/tvemail"
@@ -114,11 +114,11 @@
                 android:gravity="center" />
 
             <!--<TextView-->
-                <!--android:id="@+id/tvfb"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="0dp"-->
-                <!--android:layout_weight="1"-->
-                <!--android:gravity="center" />-->
+            <!--android:id="@+id/tvfb"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center" />-->
             <!--android:text="Minto Minano"-->
             android:textSize="15sp" />
 
@@ -209,7 +209,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-<<<<<<< HEAD
         android:background="#393939"
         android:orientation="horizontal">
 
@@ -239,23 +238,6 @@
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
             android:src="@drawable/reward" />
-=======
-        android:background="#393939">
 
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
->>>>>>> 0bac0db84cf4ae178524b0d972a4de603e12fcdd
     </LinearLayout>
 </LinearLayout>
