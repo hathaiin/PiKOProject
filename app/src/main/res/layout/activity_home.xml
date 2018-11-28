@@ -209,6 +209,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+<<<<<<< HEAD
         android:background="#393939"
         android:orientation="horizontal">
 
@@ -238,5 +239,23 @@
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
             android:src="@drawable/reward" />
+=======
+        android:background="#393939">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+>>>>>>> 0bac0db84cf4ae178524b0d972a4de603e12fcdd
     </LinearLayout>
 </LinearLayout>
